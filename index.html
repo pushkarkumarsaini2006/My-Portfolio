@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pushkar Kumar Saini</title>
+  <meta name="description"
+    content="This is the personal website of Pushkar Kumar Saini, showcasing his work, projects, and portfolio. Explore to learn more about his skills and achievements.">
+  <!-- ===== CSS Files ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- ====== Style Switcher ====== -->
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+  <style>
+    #submitButton {
+      padding: 10px 20px;
+      background-color: var(--skin-color);
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #submitButton.submitted {
+      background-color: #00ff3c;
+      color: black;
+      animation: bounce 0.3s ease;
+    }
+
+    @keyframes bounce {
+
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.1);
+      }
+    }
+
+    .error {
+      color: red;
+      font-size: 12px;
+    }
+  </style>
+  <link rel="icon" type="image/png" href="images/Profile Pic.png">
+</head>
+
+<body>
+  <!-- ===== Main Container Start ===== -->
+  <div class="main-container">
+    <!-- ===== Aside Start ===== -->
+    <div class="aside">
+      <div class="logo">
+        <a href="#"><span>C</span>ontent</a>
+      </div>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>Services</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Projects</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+      </ul>
+    </div>
+    <!-- ===== Aside End ===== -->
+    <!-- ===== Main Content Start ===== -->
+    <div class="main-content">
+      <!-- ===== Home Section Start ===== -->
+      <section class="home active section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">Hey there! My name is <span class="name">Pushkar Kumar Saini</span></h3>
+              <h3 class="my-profession">I'm a <span class="typing"></span></h3>
+              <p>
+                As a skilled full stack developer with more than a year of hands on experience, I specialize in
+                designing and building dynamic, responsive, and scalable web applications. With a strong foundation in
+                MongoDB, Express.js, React.js, and Node.js, I create seamless full stack solutions that deliver
+                exceptional user experiences and drive efficient performance. Passionate about leveraging cutting edge
+                technologies to solve complex problems, I aim to deliver high quality, reliable solutions that meet
+                client and user needs.</p>
+              <a href="https://drive.google.com/file/d/1BeT1wEyDzPGfkYBizeHXcDY8yRsAksCQ/view?usp=sharing"
+                target="blank" class="btn">Download Resume</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/Self.jpg" alt="Pushkar Kumar Saini">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Home Section End ===== -->
+      <!-- ===== About Section Start ===== -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>I'm Pushkar Kumar Saini a, <span class="typing1"></span></h3>
+                  <p>I am a passionate Full Stack Developer, an aspiring Engineer, a dedicated Student, and a
+                    Researcher, with over 12 months of experience specializing in Web Development and Data Structures
+                    &amp; Algorithms (DSA). Through hands on experience and continuous learning, I have developed strong
+                    technical skills and worked on a variety of projects. My expertise lies in building dynamic,
+                    efficient, and user friendly web applications using the MERN stack (MongoDB, Express.js, React.js,
+                    Node.js), while also exploring innovative solutions through research and engineering.</p>
+                  <p>Feel free to explore my portfolio and reach out if you are looking to collaborate on your next
+                    project.</p>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>15 Feb 2006</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age : <span>19</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Website : <span>pushkarkumarsaini.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>pushkarkumarsaini2006@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Degree : <span>Computer Science Engineering</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>+91 8279601166</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Moradabad, Uttar Pradesh</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>C++</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 82%;"></div>
+                          <div class="skill-percent">82%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>JavaScript</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 79%;"></div>
+                          <div class="skill-percent">79%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>React JS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 68%;"></div>
+                          <div class="skill-percent">68%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>SQL</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 84%;"></div>
+                          <div class="skill-percent">84%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- ===== timeline item ===== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2023 - 2027
+                            </h3>
+                            <h4 class="timeline-title">Bachelor's in Computer Science Engineering</h4>
+                            <p class="timeline-text">Pursuing Bachelor of Engineering in Computer Science from
+                              Chandigarh University. Gained a deep understanding of computer science
+                              principles and developed skills in programming, software development, and problem solving
+                              techniques.</p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2022 - 2023
+                            </h3>
+                            <h4 class="timeline-title">Senior Secondary Education</h4>
+                            <p class="timeline-text">Stream: Physics, Chemistry, Maths</p>
+                            <p class="timeline-text">School: Saint Mira's Academy</p>
+                            <p class="timeline-text">Board: Central Board of Secondary Education</p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2020 - 2021
+                            </h3>
+                            <h4 class="timeline-title">Secondary Education</h4>
+                            <p class="timeline-text">School: Saint Mira's Academy</p>
+                            <p class="timeline-text">Board: Central Board of Secondary Education</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- ===== timeline item ===== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> May 2025 - June 2025
+                            </h3>
+                            <h4 class="timeline-title">Web Developer Intern</h4>
+                            <p class="timeline-text">Web Development: Created responsive web applications
+                              using HTML, CSS, JavaScript, and modern frameworks.</p>
+                            <p class="timeline-text">Team Collaboration: Worked with developers to implement
+                              backend logic and integrate RESTful APIs.</p>
+                            <p class="timeline-text">Debugging & Optimization: Resolved bugs and enhanced
+                              performance for smoother user experience.</p>
+                            <p class="timeline-text">Cross-Platform Support: Delivered solutions compatible
+                              across major devices and browsers.</p>
+                          </div>
+                          <!-- ===== timeline item ===== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> Jan 2025 - May 2025
+                            </h3>
+                            <h4 class="timeline-title">Full Stack Developer Intern</h4>
+                            <p class="timeline-text">WebApplication Development: Created interactive web
+                              applications using HTML, CSS, JavaScript, Node.js, and
+                              MongoDB.</p>
+                            <p class="timeline-text">Collaboration: Worked alongside senior developers to build
+                              server side functionality and integrate databases.</p>
+                            <p class="timeline-text">Troubleshooting and Optimization: Diagnosed issues and
+                              enhanced website performance and usability.</p>
+                            <p class="timeline-text">Cross Platform Compatibility: Ensured applications were
+                              scalable and functional across multiple platforms.</p>
+                          </div>
+                          <!-- ===== timeline item ===== -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i> July 2024 - Dec 2024
+                            </h3>
+                            <h4 class="timeline-title">Front End Developer Freelance</h4>
+                            <p class="timeline-text">WebInterface Development: Designed responsive, user
+                              friendly interfaces with HTML, CSS, and JavaScript.</p>
+                            <p class="timeline-text">Client Collaboration: Partnered with clients to deliver
+                              effective UI/UX designs, boosting site performance.</p>
+                            <p class="timeline-text">API Integration: Linked front end systems with APIs in
+                              JavaScript, coordinating with back end teams for seamless
+                              operation.</p>
+                            <p class="timeline-text">Project Management: Independently handled projects,
+                              meeting deadlines and exceeding client expectations.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- ===== About Section End ===== -->
+      <!-- ===== Services Section Start ===== -->
+      <section class="service section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-rocket"></i>
+                </div>
+                <h4>Software Development</h4>
+                <p>Custom Software Solutions, Desktop Applications, API Development &amp; Integration, Database Design
+                  &amp;
+                  Optimization.</p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-laptop"></i>
+                </div>
+                <h4>Web Development</h4>
+                <p>Custom Website Development, Front End Development, Back End Development, Full Stack Web
+                  Applications.</p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-palette"></i>
+                </div>
+                <h4>UI/UX Design &amp; optimization</h4>
+                <p>Responsive Web Development, UI/UX Enhancements, Web Performance Optimization Services.</p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-cogs"></i>
+                </div>
+                <h4>Devops &amp; Deployment</h4>
+                <p>Cloud Hosting, CI/CD Pipeline Setup, Server Management.</p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-search"></i>
+                </div>
+                <h4>Consulting &amp; Code Review</h4>
+                <p>Code Optimization &amp; Best Practices, Technical Consulting, Performance &amp; Security Audits.</p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-lock"></i>
+                </div>
+                <h4>Security &amp; Optimization</h4>
+                <p>Website Security, Performance Optimization, Database Security &amp; Backup Solutions.</p>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Services Section End ===== -->
+      <!-- ===== Portfolio Section Start ===== -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Projects</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+            </div>
+          </div>
+          <div class="row">
+            <!-- ====== portfolio item start ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/blog_website.png" alt="Screenshot of a custom-built blog platform">
+                  <p class="project-name">Blog Website</p>
+                </div>
+              </div>
+            </div>
+            <!-- ====== portfolio item End ====== -->
+            <!-- ====== portfolio item start ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/chat_app.png" alt="Preview of real-time messaging application">
+                  <p class="project-name">Chat Application</p>
+                </div>
+              </div>
+            </div>
+            <!-- ====== portfolio item End ====== -->
+            <!-- ====== portfolio item start ====== -->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/portfolio/E-Commerce_website.png" alt="Snapshot of online shopping platform">
+                  <p class="project-name">E-Commerce Website</p>
+                </div>
+              </div>
+            </div>
+            <!-- ====== portfolio item End ====== -->
+            <!--======portfolio item start======-->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <a href="https://netflix-clone-xi-rose-30.vercel.app" target="_blank">
+                    <img src="images/portfolio/Netflix Clone.png" alt="Preview of Netflix-inspired streaming interface">
+                    <p class="project-name">Netflix Clone</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ====== portfolio item End ====== -->
+            <!--======portfolio item start======-->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <a href="https://spotify-clone-gilt-ten.vercel.app" target="_blank">
+                    <img src="images/portfolio/Spotify Clone.png" alt="Screenshot of Spotify-like music player">
+                    <p class="project-name">Spotify Clone</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ====== portfolio item End ====== -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Portfolio Section End ===== -->
+      <!-- ===== Contact Section Start ===== -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15">Have Any Questions?</h3>
+          <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICE</h4>
+          <div class="row">
+            <!-- ===== Contact info item start ====== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <h4>Connect On</h4>
+              <p>+91 8279601166</p>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+            <!-- ===== Contact info item start ====== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+              <h4>Address</h4>
+              <p>Moradabad, Uttar Pradesh</p>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+            <!-- ===== Contact info item start ====== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <h4>Email</h4>
+              <p>pushkarkumarsaini2006@gmail.com</p>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+            <!-- ===== Contact info item start ====== -->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-globe-europe"></i></div>
+              <h4>Website</h4>
+              <p>pushkarkumarsaini.com</p>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+          </div>
+          <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+          <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+          <!-- ====== Contact Form ====== -->
+          <div class="row">
+            <div class="contact-form padd-15">
+              <form id="contact-form">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+
+                      <input type="text" id="name" name="name" autocomplete="name" class="form-control"
+                        placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input type="email" id="email" name="email" autocomplete="email" class="form-control"
+                        placeholder="Email">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input type="text" id="subject" name="subject" autocomplete="subject" class="form-control"
+                        placeholder="Subject">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea name="message" class="form-control" id="message" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <button type="submit" id="submitButton" class="btn">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Contact Section End ===== -->
+    </div>
+    <!-- ===== Main Content End ===== -->
+  </div>
+  <!-- ===== Main Container End ===== -->
+  <!-- ===== Style Switcher Start ===== -->
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas "></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!-- ===== Style Switcher End ===== -->
+  <!-- ===== JS Files ===== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="js/style-switcher.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("GYQ6VHEu_6LIkKgs_");
+    })();
+  </script>
+  <script type="text/javascript">
+    window.onload = function () {
+      document.getElementById('contact-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+        // Get form values and trim whitespace
+        var name = document.getElementById('name').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var subject = document.getElementById('subject').value.trim();
+        var message = document.getElementById('message').value.trim();
+        // Validate form fields
+        if (name === '' || email === '' || subject === '' || message === '') {
+          alert('Please fill all fields to submit the form.');
+          return; // Stop execution if any field is empty
+        }
+        // Validate email format
+        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+          alert('Please enter a valid email address.');
+          return; // Stop execution if email is invalid
+        }
+        // Prepare email parameters
+        var templateParams = {
+          from_name: name,
+          reply_to: email,
+          to_name: "Pushkar Kumar Saini",
+          subject: subject,
+          message: message
+        };
+        // Send email using EmailJS
+        emailjs.send('service_7y7igtl', 'template_hyqul7y', templateParams)
+          .then(function (response) {
+            console.log('SUCCESS!', response.status, response.text);
+            document.getElementById('submitButton').classList.add('submitted');
+            document.getElementById('submitButton').textContent = 'Sent';
+            document.getElementById('contact-form').reset();
+            setTimeout(() => {
+              document.getElementById('submitButton').classList.remove('submitted');
+              document.getElementById('submitButton').textContent = 'Send';
+            }, 750);
+          })
+          .catch(function (error) {
+            console.log('FAILED...', error);
+            alert('Failed to send the email. Please try again.');
+          });
+      });
+    };
+  </script>
+</body>
+
+</html>
